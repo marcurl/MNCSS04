@@ -1,14 +1,27 @@
+#title {
+    font-size: 44px;
+    background-color: lightgreen;
+}
+
+#indexBody {
+    background-color: burlywood;
+    color: forestgreen;
+    font-family: Arial;
+}
+
 #headerRow {
-    background-color: gainsboro;
+    background-color: silver;
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100px;
+    font-family: Arial;
 }
 
 #parkLogo {
     background-color: black;
     width: 100px;
+    font-family: Arial;
 }
 
 #parkIcon {
@@ -17,11 +30,104 @@
 }
 
 #parkNameBG {
-    background-color: darkgoldenrod;
+    height: 100%;
 }
 
 #parkName {
-    color: forestgreen;
-    font-size: 48px;
-    text-align: center;
+    width: 75%;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+#parkDescriptionParagraph {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial;
+};
+
+#parkImage {
+    width: 100%;
+    z-index: 0;
+}
+
+#funFactDiv {
+    padding: 5px;
+}
+
+.yellowstoneRow, .yellowstoneFact, .yellowstoneBG {
+    background-color: steelblue;
+    color: goldenrod;
+}
+
+.yellowstoneDescription {
+    color: steelblue;
+}
+
+.yellowstoneName {
+    background-color: skyblue;
+}
+
+.volcanoesRow, .volcanoesFact, .volcanoesBG {
+    background-color: firebrick;
+    color: whitesmoke;
+}
+
+.volcanoesName {
+    background-color: black;
+}
+
+.volcanoesDescription {
+    color: firebrick;
+}
+
+.gmsRow, .gmsFact, .gmsBG {
+    background-color: sandybrown;
+    color: midnightblue;
+}
+
+.gmsName {
+    background-color: wheat;
+}
+
+.gmsDescription {
+    color: sandybrown;
+}
+
+.gcRow, .gcFact, .gcBG {
+    background-color: salmon;
+    color: slateblue;
+}
+
+.gcName {
+    background-color: lightcoral;
+}
+
+.gcDescription {
+    color: salmon;
+}
+
+.glacierRow, .glacierFact, .glacierBG {
+    background-color: skyblue;
+    color: snow;
+}
+
+.glacierName {
+    background-color: lightblue;
+}
+
+.glacierDescription {
+    color: skyblue;
+}
+
+.acadiaRow, .acadiaFact, .acadiaBG {
+    background-color: cadetblue;
+    color: coral;
+}
+
+.acadiaName {
+    background-color: indianred; 
+}
+
+.acadiaDescription {
+    color: cadetblue;
 }
