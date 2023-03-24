@@ -1,0 +1,27 @@
+#headerRow {
+    background-color: gainsboro;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100px;
+}
+
+#parkLogo {
+    background-color: black;
+    width: 100px;
+}
+
+#parkIcon {
+    height: 75px;
+    width: 100px;
+}
+
+#parkNameBG {
+    background-color: darkgoldenrod;
+}
+
+#parkName {
+    color: forestgreen;
+    font-size: 48px;
+    text-align: center;
+}
